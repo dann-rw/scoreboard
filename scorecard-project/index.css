@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face{
+    font-family: "Cursed Timer";
+    src: url("cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf") format("truetype");
+  }
+
+button {
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    width: 45px;
+    height: 45px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 100%;
+    width: 575px;
+    height: 385px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: none;
+    padding: none;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin: 60px 0px;
+}
+
+.guest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin: 60px 0px;
+}
+
+.home-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    color: red;
+    font-weight: 400px;
+    font-size: 90px;
+    font-family: "Cursed Timer";
+}
+
+.home-score-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+.guest-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    color: red;
+    font-weight: 400px;
+    font-size: 90px;
+    font-family: "Cursed Timer";
+}
+
+.guest-score-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+.new-game-container{
+    width: 60px;
+    height: auto;
+    display: flex;
+    align-items: end;
+}
+
+#new-game{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#new-game:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+#home-score-btn-1:hover{
+    box-shadow: 0px 0px 5px white
+}
+
+#home-score-btn-2:hover{
+    box-shadow: 0px 0px 5px white
+}
+
+#home-score-btn-3:hover{
+    box-shadow: 0px 0px 5px white
+}
+
+#guest-score-btn-1:hover{
+    box-shadow: 0px 0px 5px white
+}
+
+#guest-score-btn-2:hover{
+    box-shadow: 0px 0px 5px white
+}
+
+#guest-score-btn-3:hover{
+    box-shadow: 0px 0px 5px white
+}
